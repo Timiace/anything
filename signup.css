@@ -1,0 +1,117 @@
+form{
+    height: 580px;
+    
+    width:600px;
+    padding: 75px 50px;
+    position:absolute;
+    top:0%;
+    left:27%;
+    margin-left:22%;
+}
+body{
+    background-image:url("photo-1521093470119-a3acdc43374a.webp");
+    
+}
+.textboxdiv{
+    border:bottom 2px solid white;
+    position: relative;
+    margin:30px;
+}
+.hero{
+    border:bottom 2px solid white;
+    position: relative;
+    margin:30px;
+}
+.boy{
+    border:bottom 2px solid white;
+    position: relative;
+    margin:30px;
+}
+.men{
+    border:bottom 2px solid white;
+    position: relative;
+    margin:30px;
+}
+.women{
+    border:bottom 2px solid white;
+    position: relative;
+    margin:30px;
+}
+.bus{
+    border-radius: 15px;
+    height:50px;
+    border-color:black;
+    width: 400px;
+    
+}
+.fool{
+    border-radius: 15px;
+    height:50px;
+    border-color:black;
+    width: 400px;
+    
+}
+.confirm-btn{
+    border-radius: 15px;
+    height:50px;
+    border-color:black;
+    width: 400px;
+}
+.deyplay{
+    border-radius: 15px;
+    height:50px;
+    border-color:black;
+    width: 400px;
+}
+.signup-btn{
+    height:50px;
+   width:42%;
+   background-color:brown;
+   color: white;
+   font-size: large;
+border-radius: 10PX;
+border-color: white;
+}
+.signup-btn:hover{
+    background-color: black;
+}
+
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: none;
+        position: relative;
+        max-width: 100vw;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form {
+        position: sticky;
+        max-width: 100vw;
+        margin: 0;
+        margin-right: 57px;
+        padding: 0;
+        max-width: 300px;
+    }
+    .bus, .fool, .confirm-btn, .deyplay, .signup-btn {
+        width: 300px;
+    }
+}
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
