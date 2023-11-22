@@ -47,8 +47,9 @@ form{
 .loginbtn{
    height:50px;
    width:300px;
-   background-image:url("plain_dark_blue_hd_navy_blue.jpg") ;
-   color:brown;
+   /* background-image: url("plain_dark_blue_hd_navy_blue.jpg") ; */
+   color: brown;
+   margin-left: 2px;
    font-size: large;
 border-radius: 10PX;
 border-color: white;
